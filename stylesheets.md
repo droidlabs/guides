@@ -45,4 +45,4 @@ Most popular CSS Framework by Twitter.
 1. In RoR projects Twitter Bootstrap should be used only as a [Gem file](http://rubygems.org/gems/bootstrap-sass) (Twitter Bootstrap should be easily updated via Gem): ```bootstrap-sass```
 2. All overrides and additions to the Twitter Bootstrap styles should be placed in the bootstrap folder: ```stylesheets/libs/bootstrap```
 3. Only project required JS libs for Twitter Bootstrap should be used. Do not require all libs or use bootstrap.min.js files (they can be included only if all the JS libs are needed in the project).
-4. Bourbon might be needed for mixins since Twitter Bootstrap doesn't have a lot of mixins that are commonly used around projects.
+4. [Bourbon](#bourbon) might be needed for mixins since Twitter Bootstrap doesn't have a lot of mixins that are commonly used around projects.
