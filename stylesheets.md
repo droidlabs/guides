@@ -22,8 +22,8 @@ Root folder should only contain CSS-files that would be compiled. Other files sh
     pages.css.scss
 
 ## CSS Syntax
-1. Charset should be declared in the beginning of top file: ```@charset ‘utf-8’;```
-2. Only @import can be used in the files - they will be automatically compiled into one file without imports later. This is needed for most of the CSS libs that are used as a Gems, so begin project with @import so later you won't rewrite main files again: ```@import ‘partials/layout’;```
+1. Charset should be declared in the beginning of top file: ```@charset "utf-8";```
+2. Only @import can be used in the files - they will be automatically compiled into one file without imports later. This is needed for most of the CSS libs that are used as a Gems, so begin project with @import so later you won't rewrite main files again: ```@import "partials/layout";```
 3. Place all the SaSS vars in one file: ```partials/setup.css.scss```
 4. No need to use prefixes (especially mixins for them) for old selectors such as border-radius, box-shadow
 
