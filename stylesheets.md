@@ -29,17 +29,17 @@ Root folder should only contain CSS-files that would be compiled. Other files sh
 
 ## Frameworks
 
-### DroidCSS: https://github.com/droidlabs/droidcss
+### [DroidCSS](https://github.com/droidlabs/droidcss)
 DroidCSS is a small CSS Framework that contains most of the Bourbon mixins & Grid Generator.
 
 1. DroidCSS should be used only as a Gem file: ```droidcss```
 
-### Bourbon: https://github.com/thoughtbot/bourbon
+### [Bourbon](https://github.com/thoughtbot/bourbon)
 Most popular Gem for SaSS mixins.
 
 1. Bourbon should be used only as a Gem file: ```bourbon```
 
-### Bootstrap: https://github.com/twbs/bootstrap-sass
+### [Bootstrap](https://github.com/twbs/bootstrap-sass)
 Most popular CSS Framework by Twitter.
 
 1. In RoR projects Twitter Bootstrap should be used only as a Gem file (Twitter Bootstrap should be easily updated via Gem): ```bootstrap-sass```
